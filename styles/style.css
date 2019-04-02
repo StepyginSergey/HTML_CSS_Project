@@ -1,0 +1,120 @@
+body {
+    background: #f8f8f8;
+    font-family: 'Lobster', cursive;
+}
+h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mainmenu {
+    list-style-type: none;
+    padding: inherit;
+}
+
+.mainmenu a{
+    line-height: 50px;
+    height: 50px;
+    display: block;
+    background: #858283;
+    color: white;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+}
+.mainmenu a:hover{
+    color: black;
+}
+
+.mainmenu li{
+    display: inline-block;
+}
+
+.shotdescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.fulldescription {
+    color: #484343;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    list-style-image: url('../images/home_list1.png');
+    margin-left: 10px;
+}
+
+.fulldescription li {
+    font-style: italic;
+}
+
+.imageborder {
+    border: 5px solid #484343;
+}
+.imageborder:hover {
+    border: 0px solid #484343;
+    margin: 5px;
+}
+
+input,textarea {
+    font-family: 'Lobster', cursive;
+    width: 400px;
+}
+
+input[type="email"]:focus{
+    color: green;
+    background: burlywood;
+}
+
+input[type="text"]{
+    text-transform: capitalize;
+}
+
+input[type="submit"],input[type="reset"] {
+    width: 100px;
+    border-radius: 15px;
+
+    line-height: 50px;
+    height: 50px;
+    background: #858283;
+    color: white;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+.logo h3{
+    display: inline;
+    margin: 0px 20px;
+}
+
+.logo img{
+    width: 20%;
+}
+
+footer{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+    padding: 0px 20px;
+}
